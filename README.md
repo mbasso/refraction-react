@@ -33,7 +33,7 @@ Docs is available [here](docs/README.md)
 
 You can find an example of Refraction Player in Refraction repository [here](). Alternatively, you can check [awesome-refraction](https://github.com/mbasso/awesome-refraction).
 
-If you want to run examples, check out the instruction [here](https://mbasso.github.com/refraction/docs/introduction/Examples.html).
+If you want to run examples, check out the instruction [here](https://mbasso.github.io/refraction/docs/introduction/Examples.html).
 
 ## Change Log
 
