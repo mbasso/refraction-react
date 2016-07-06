@@ -1,9 +1,9 @@
 # Refraction React
 
-[![Travis](https://img.shields.io/travis/mbasso/refraction-react.svg?maxAge=2592000)](https://travis-ci.org/mbasso/refraction-react)
+[![Build Status](https://travis-ci.org/mbasso/refraction-react.svg?branch=master)](https://travis-ci.org/mbasso/refraction-react)
 [![npm version](https://img.shields.io/npm/v/refraction-react.svg)](https://www.npmjs.com/package/refraction-react)
 [![npm downloads](https://img.shields.io/npm/dm/refraction-react.svg?maxAge=2592000)](https://www.npmjs.com/package/refraction-react)
-[![Coveralls](https://img.shields.io/coveralls/mbasso/refraction-react.svg?maxAge=2592000)](https://coveralls.io/github/mbasso/refraction-react)
+[![Coverage Status](https://coveralls.io/repos/github/mbasso/refraction-react/badge.svg?branch=master)](https://coveralls.io/github/mbasso/refraction-react?branch=master)
 
 > React bindings for refraction
 
