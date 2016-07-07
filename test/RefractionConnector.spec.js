@@ -52,6 +52,9 @@ describe('RefractionConnector', () => {
     TestUtils.Simulate.change(input, { target: { value: 'test2' } });
     expect(connector.state).toEqual({ value: 'test1test2' });
     expect(connected.props.value).toEqual('test1test2');
+
+    connector.componentWillUnmount();
+    expect(refraction.mediator.subscribers.indexOf(connector)).toEqual(-1);
   };
 
   afterEach(() => {
