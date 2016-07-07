@@ -31,7 +31,7 @@ Docs is available [here](docs/README.md)
 
 ## Examples
 
-You can find an example of Refraction Player in Refraction repository [here](). Alternatively, you can check [awesome-refraction](https://github.com/mbasso/awesome-refraction).
+You can find an example of Refraction React in Refraction repository [here](https://github.com/mbasso/refraction/tree/master/examples/ReactSimple). Alternatively, you can check [awesome-refraction](https://github.com/mbasso/awesome-refraction).
 
 If you want to run examples, check out the instruction [here](https://mbasso.github.io/refraction/docs/introduction/Examples.html).
 
