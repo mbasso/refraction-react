@@ -39,7 +39,7 @@ export default class RefractionConnector extends React.Component {
     Object.keys(props.actions).forEach((key) => {
       const { refraction } = this.context;
       if (refraction[props.actions[key]]) {
-        this.alias[key] = refraction[props.actions[key]];
+        this.alias[key] = refraction[props.actions[key]].bind(refraction);
       } else {
         this.alias[key] = refraction.publish.bind(refraction, props.actions[key]);
       }

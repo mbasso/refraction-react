@@ -1,6 +1,6 @@
 {
   "name": "refraction-react",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React bindings for Refraction",
   "main": "lib/index.js",
   "files": [
@@ -66,12 +66,12 @@
     "nyc": "6.4.4",
     "react": "15.1.0",
     "react-addons-test-utils": "15.0.1",
-    "refraction": "1.1.0",
+    "refraction": "^1.1.0",
     "rimraf": "2.5.2",
     "webpack": "1.13.1"
   },
   "peerDependencies": {
-    "refraction": "1.1.0",
+    "refraction": "^1.1.0",
     "react": "15.1.0"
   },
   "npmName": "refraction-react",
