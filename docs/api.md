@@ -66,6 +66,8 @@ class App extends React.Component {
 
 #### Example
 
+**N.B. Comments indicate the equivalent code without connect function**
+
 ```js
 class Input extends React.Component {
   ...
