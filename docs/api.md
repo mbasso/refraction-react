@@ -58,7 +58,7 @@ class App extends React.Component {
 `connect` accept a single object with these properties:
 
 - `actions` (*Object*): map component properties to refraction publishers. Attributes name of `actions` identify component properties, attributes value identify refraction publishers. If a publisher with that name is unavailable, connect will create a new function that publish the value for you.
-- `subscriptions` (*Object*): an object that consist in a series of function that return new properties. Attributes name of `subscriptions` identify channels to handle, attributes value identify a function that must return an object representing new component props. This function accept the value hold by the channel and the actual props of component. **New properties will be merged with the old. Returning an object that has no value for a certain prop means maintain the old one.**
+- `subscriptions` (*Object*): an object that consist in a series of function that return new properties. Attributes name of `subscriptions` identify channels to handle, attributes value identify a function that must return an object representing new component props or a Promise that resolve with them. This function accept the value hold by the channel and the actual props of component. **New properties will be merged with the old. Returning an object that has no value for a certain prop means maintain the old one.**
 
 #### Returns
 
