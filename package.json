@@ -1,6 +1,6 @@
 {
   "name": "refraction-react",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "React bindings for Refraction",
   "main": "lib/index.js",
   "files": [
@@ -59,7 +59,7 @@
     "eslint-plugin-import": "1.8.1",
     "eslint-plugin-jsx-a11y": "1.3.0",
     "eslint-plugin-react": "5.1.1",
-    "expect": "1.8.0",
+    "expect": "1.20.2",
     "istanbul": "0.4.3",
     "jsdom": "5.4.3",
     "mocha": "2.5.3",
