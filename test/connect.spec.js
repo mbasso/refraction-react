@@ -21,4 +21,24 @@ describe('connect', () => {
       test: 'It works!',
     });
   });
+
+  it('should connect a functional component', () => {
+    const component = props => (
+      <div>
+        <input {...props} />
+      </div>
+    );
+    const ConnectedComponent = connect({
+      ...configs,
+    })(component);
+
+    const renderer = TestUtils.createRenderer();
+    renderer.render(<ConnectedComponent test="It works!" />);
+    const result = renderer.getRenderOutput();
+    expect(result.type).toBe(RefractionConnector);
+    expect(result.props).toMatch({
+      ...configs,
+      test: 'It works!',
+    });
+  });
 });
