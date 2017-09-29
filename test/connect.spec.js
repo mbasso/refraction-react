@@ -1,6 +1,6 @@
 import expect from 'expect';
 import React from 'react';
-import TestUtils from 'react-addons-test-utils';
+import { createRenderer } from 'react-test-renderer/shallow';
 import { connect } from '../src/';
 import { Child, configs } from './common';
 import RefractionConnector from '../src/RefractionConnector';
@@ -11,7 +11,7 @@ describe('connect', () => {
       ...configs,
     })(Child);
 
-    const renderer = TestUtils.createRenderer();
+    const renderer = createRenderer();
     renderer.render(<ConnectedComponent test="It works!" />);
     const result = renderer.getRenderOutput();
     expect(result.type).toBe(RefractionConnector);
@@ -32,7 +32,7 @@ describe('connect', () => {
       ...configs,
     })(component);
 
-    const renderer = TestUtils.createRenderer();
+    const renderer = createRenderer();
     renderer.render(<ConnectedComponent test="It works!" />);
     const result = renderer.getRenderOutput();
     expect(result.type).toBe(RefractionConnector);

@@ -1,7 +1,7 @@
 import expect from 'expect';
 import React from 'react';
 import Refraction from 'refraction';
-import TestUtils from 'react-addons-test-utils';
+import TestUtils from 'react-dom/test-utils';
 import { Provider } from '../src/';
 import { Child, configs } from './common';
 import RefractionConnector from '../src/RefractionConnector';

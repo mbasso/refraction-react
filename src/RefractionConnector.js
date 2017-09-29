@@ -1,17 +1,18 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export default class RefractionConnector extends React.Component {
   static propTypes = {
-    actions: React.PropTypes.object,
-    subscriptions: React.PropTypes.object,
-    Component: React.PropTypes.oneOfType([
-      React.PropTypes.func,
-      React.PropTypes.string,
+    actions: PropTypes.object,
+    subscriptions: PropTypes.object,
+    Component: PropTypes.oneOfType([
+      PropTypes.func,
+      PropTypes.string,
     ]).isRequired,
   };
 
   static contextTypes = {
-    refraction: React.PropTypes.object.isRequired,
+    refraction: PropTypes.object.isRequired,
   };
 
   static defaultProps = {
