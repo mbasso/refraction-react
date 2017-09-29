@@ -1,13 +1,14 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 /* eslint-disable react/prefer-stateless-function */
 export class Child extends React.Component {
 
   static propTypes = {
-    value: React.PropTypes.string,
-    children: React.PropTypes.oneOfType([
-      React.PropTypes.func,
-      React.PropTypes.array,
+    value: PropTypes.string,
+    children: PropTypes.oneOfType([
+      PropTypes.func,
+      PropTypes.array,
     ]),
   }
 
@@ -16,7 +17,7 @@ export class Child extends React.Component {
   }
 
   static contextTypes = {
-    refraction: React.PropTypes.object.isRequired,
+    refraction: PropTypes.object.isRequired,
   }
 
   render() {

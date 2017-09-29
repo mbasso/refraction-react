@@ -28,7 +28,7 @@ Now, in `App`, you can use refraction in this way:
 class App extends React.Component {
 
   static contextTypes  = {
-    refraction: React.PropTypes.object,
+    refraction: PropTypes.object,
   }
 
   componentDidMount() {

@@ -1,14 +1,15 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export default class Provider extends React.Component {
 
   static propTypes = {
-    refraction: React.PropTypes.object.isRequired,
-    children: React.PropTypes.any.isRequired,
+    refraction: PropTypes.object.isRequired,
+    children: PropTypes.any.isRequired,
   }
 
   static childContextTypes = {
-    refraction: React.PropTypes.object.isRequired,
+    refraction: PropTypes.object.isRequired,
   }
 
   getChildContext() {

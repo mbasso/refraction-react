@@ -1,6 +1,6 @@
 {
   "name": "refraction-react",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "React bindings for Refraction",
   "main": "lib/index.js",
   "files": [
@@ -64,15 +64,18 @@
     "jsdom": "5.4.3",
     "mocha": "2.5.3",
     "nyc": "6.4.4",
-    "react": "15.1.0",
-    "react-addons-test-utils": "15.0.1",
+    "prop-types": "15.6.0",
+    "react": "16.0.0",
+    "react-dom": "16.0.0",
+    "react-test-renderer": "16.0.0",
     "refraction": "^1.1.0",
     "rimraf": "2.5.2",
     "webpack": "1.13.1"
   },
   "peerDependencies": {
+    "prop-types": "^15.6.0",
     "refraction": "^1.1.0",
-    "react": "15.1.0"
+    "react": "^16.0.0"
   },
   "npmName": "refraction-react",
   "npmFileMap": [
