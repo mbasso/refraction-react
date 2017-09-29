@@ -18,7 +18,7 @@
     "build:umd": "cross-env BABEL_ENV=commonjs NODE_ENV=development webpack src/index.js dist/refraction-react.js",
     "build:umd:min": "cross-env BABEL_ENV=commonjs NODE_ENV=production webpack src/index.js dist/refraction-react.min.js",
     "build": "npm run build:commonjs && npm run build:umd && npm run build:umd:min",
-    "prepublish": "npm run clean && npm run check:src && npm run build && check-es3-syntax lib/ dist/ --kill",
+    "prepublish": "npm run clean && npm run check:src && npm run build",
     "lint": "eslint src test build"
   },
   "repository": {
@@ -51,7 +51,6 @@
     "babel-preset-react": "6.11.1",
     "babel-preset-stage-0": "6.5.0",
     "babel-register": "6.9.0",
-    "check-es3-syntax-cli": "0.1.0",
     "coveralls": "2.11.9",
     "cross-env": "1.0.7",
     "eslint": "2.12.0",
